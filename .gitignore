@@ -3,3 +3,5 @@
 /.idea
 /tests/reports/*.json
 /tests/reports/*.html
+/tests/reports/cucumber_report.html
+/tests/reports/cucumber_report.json
