@@ -4,8 +4,8 @@ Feature: Users Tests for automation academy
   Scenario Outline: A new user is created
     When A new user is created with body <body>
     Then The status code is 201
-
+    And The response includes body <responseBody>
 
     Examples:
-    | body                                                    |
-    | {"userName": "Anneke", "password": "academy", "age": 2} |
+    | body                                                    | responseBody                                                                                      |
+    | {"userName": "Anneke", "password": "academy", "age": 2} | {"userName": "Anneke", "password": "academy", "age": 2, "userId": "idSpark", "rating": ["G","PG"]}|

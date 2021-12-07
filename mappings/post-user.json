@@ -11,7 +11,7 @@
   },
   "response": {
     "status": 201,
-    "body": "{ \"userName\": \"Anneke\", \"password\": \"academy\", \"age\": 2 }",
+    "body": "{ \"userName\": \"Anneke\", \"password\": \"academy\", \"age\": 2, \"userId\": \"idSpark\", \"rating\":[\"G\",\"PG\"]}",
     "headers": {
       "CONTENT-TYPE": "Application/json"
     }

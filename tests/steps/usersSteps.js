@@ -1,4 +1,4 @@
-const {When} = require("cucumber");
+const {When} = require("@cucumber/cucumber");
 const postHelper = require("../helpers/postHelper");
 const endpoint = '/users';
 
