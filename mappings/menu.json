@@ -1,0 +1,15 @@
+{
+  "id": "e440e796-43a4-499e-bbb9-a9a167619cfd",
+  "name": "menu",
+  "request": {
+    "url": "/local/menu/idSpark",
+    "method": "GET"
+  },
+  "response": {
+    "status": 200,
+    "body": "{\"user_name\":\"Anneke\",\"country_name\":\"Argentina\",\"rating\":[\"G\",\"PG\"], \"vod_genre\":[{\"genre\":\"Anime\",\"vods\":[{\"title\":\"Attack on Titan\",\"rating\":\"G\"},{\"title\":\"Deadman Wonderland\",\"rating\":\"R\"}]},{\"genre\":\"Action\",\"vods\":[{\"title\":\"Rambo\",\"rating\":\"PG-13\"}]},{\"genre\":\"SCI-FI\",\"vods\":[{\"title\":\"Sharknado\",\"rating\":\"G\"},{\"title\":\"Lavalantula\",\"rating\":\"NR\"}]}]}",
+    "headers": {
+      "CONTENT-TYPE": "Application/json"
+    }
+  }
+}
